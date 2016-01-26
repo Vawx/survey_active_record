@@ -1,10 +1,21 @@
-# Default app structure for Sinatra
+# Survey
+
+## Description
+Mock survey creation site.
 
 ## Use
 
-clone `https://github.com/Vawx/empty_sinatra`
+clone `https://github.com/Vawx/survey_active_record`
 
 terminal `bundle install`
 
+terminal `rake db:create`
+
+terminal `rake db:migrate`
+
+terminal `ruby app.rb`
+
+connect `localhost:4567`
+
 ## License
-MIT <2016> 
+MIT <2016>
